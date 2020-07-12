@@ -6,7 +6,10 @@
 }
 .logo{
   width: 183px;
-  z-index: 15;
+  z-index: 30;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .section-title{
   width: 60%;
@@ -41,11 +44,12 @@ a:hover{
   overflow: hidden;
   z-index: -2;
 }
-.logo__place_header{
+.logo_place_header{
   position: absolute;
   top: 30px;
   left: 64px;
   height: 32px;
+  background-image: url(../images/logo_place_header.svg);
 }
 .header__title{
   max-width: 730px;
@@ -203,7 +207,7 @@ a:hover{
   position: relative;
   color: #fff;
 }
-.kaufman__table_theme_dark{ 
+.table_theme_dark{ 
   margin: 0 auto 90px;
 }
 .table__cell_theme_dark{
@@ -234,18 +238,16 @@ a:hover{
 }
 .footer__column_content_copyright{
   flex-basis: 711px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.logo__place_footer{
+.logo_place_footer{
   height: 35px;
-  left: 0;
-  top: 0;
-  position: absolute;
+  background-image: url(../images/logo_place_footer.svg);
 }
 .footer__author{
-  bottom: 18px;
-  position: absolute;
-  left: 0;
+  margin-bottom: 18px;
   color: #fff;
   line-height: 25px;
   font-size: 18px;
