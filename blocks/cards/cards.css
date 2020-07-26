@@ -6,4 +6,5 @@
     grid-row-gap: 60px;
     grid-column-gap: 100px;
     margin: 0 auto;
+    padding-left: 0;
   }
